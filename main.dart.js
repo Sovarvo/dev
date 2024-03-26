@@ -52301,7 +52301,7 @@ else return new A.Sw(B.Sa,new A.agL(),new A.agM(),r)}},
 $S:277}
 A.agM.prototype={
 $1(a){var s=null,r=$.aI3()
-return A.aIY(A.aLf($.aI2(),!1,"/",A.aF(["/",new A.agB(),"/signin",new A.agC(),"/signup",new A.agD(),"/home",new A.agE(),"/makeorder",new A.agF()],t.N,t.Ab),r),new A.lG(s,s,s,s,B.aZ,s,s,s),t.lu)},
+return A.aIY(A.aLf($.aI2(),!1,"/makeorder",A.aF(["/",new A.agB(),"/signin",new A.agC(),"/signup",new A.agD(),"/home",new A.agE(),"/makeorder",new A.agF()],t.N,t.Ab),r),new A.lG(s,s,s,s,B.aZ,s,s,s),t.lu)},
 $S:158}
 A.agB.prototype={
 $1(a){return new A.qX(null)},
@@ -52655,22 +52655,24 @@ s.aqv()
 s.aqw()
 s.f=new A.bt(Date.now(),!1)
 s.r=new A.bt(Date.now(),!1)},
-K(a){var s,r,q,p,o,n=this,m=null,l="Select item",k=t.w,j=A.T(a,m,k).w.a.b*0.009,i=A.aO("The device will be collected from 7:00 PM to 12 AM. \n We'll call you to set a specific time once your order is complete.",m,m,m,m,A.S(a).p3.f.wh(B.aZ,B.aS),B.bW,m),h=A.T(a,m,k).w.a.a*0.009,g=A.aO("Rental period",m,m,m,m,A.S(a).p3.f.wh(B.al,B.aS),m,m),f=A.ci(20),e=Date.now(),d=new A.bt(Date.now(),!1).D(0,B.oo),c=new A.bt(Date.now(),!1).D(0,B.Jh),b=new A.bt(Date.now(),!1)
-f=A.bs(m,new A.SX(B.x,B.cY,n.gasK(),0,b,new A.bt(e,!1),d,c,m,m,m,n.gahr(),m),B.k,m,m,new A.c7(B.al,m,m,f,m,m,m,B.aa),m,m,m,m)
-e=A.T(a,m,k).w.a.a*0.009
-d=A.aO("How many Controllers do you want",m,m,m,m,A.S(a).p3.f.wh(B.al,B.aS),m,m)
-c=A.ci(15)
-b=n.w
-s=A.ag(b).i("a7<1,lb<j>>")
+K(a){var s,r,q,p,o,n,m=this,l=null,k="Select item",j=t.w,i=A.T(a,l,j).w.a.a*0.009,h=A.aO("Rental period",l,l,l,l,A.S(a).p3.f.wh(B.al,B.aS),l,l),g=A.ci(20),f=Date.now(),e=new A.bt(Date.now(),!1).D(0,B.oo),d=new A.bt(Date.now(),!1).D(0,B.Jh),c=new A.bt(Date.now(),!1)
+g=A.bs(l,new A.SX(B.x,B.cY,m.gasK(),0,c,new A.bt(f,!1),e,d,l,l,l,m.gahr(),l),B.k,l,l,new A.c7(B.al,l,l,g,l,l,l,B.aa),l,l,l,l)
+f=A.T(a,l,j).w.a.a*0.009
+e=A.aO("How many Controllers do you want",l,l,l,l,A.S(a).p3.f.wh(B.al,B.aS),l,l)
+d=A.ci(15)
+c=m.w
+s=A.ag(c).i("a7<1,lb<j>>")
 r=t.N
-c=A.bs(m,new A.vp(A.aK9(B.n1,B.ok,A.aO(l,m,m,m,m,A.S(a).p3.ax.rJ(B.jZ),m,m),!0,A.aa(new A.a7(b,new A.asu(a),s),!0,s.i("b_.E")),B.vt,new A.asv(n),n.d,r),m),B.k,m,m,new A.c7(B.al,m,m,c,m,m,m,B.aa),m,m,B.op,400)
-k=A.T(a,m,k).w.a.a*0.009
-s=A.aO("Pick up station",m,m,m,m,A.S(a).p3.f.wh(B.al,B.aS),m,m)
-b=A.ci(15)
-q=A.aO(l,m,m,m,m,A.S(a).p3.ax.rJ(B.jZ),m,m)
-p=n.x
-o=A.ag(p).i("a7<1,lb<j>>")
-return A.bN(A.b([new A.bo(new A.cU(0,j,0,j),i,m),new A.bo(new A.cU(0,h,0,h),g,m),f,new A.bo(new A.cU(0,e,0,e),d,m),c,new A.bo(new A.cU(0,k,0,k),s,m),A.bs(m,new A.vp(A.aK9(B.n1,B.ok,q,!0,A.aa(new A.a7(p,new A.asw(a),o),!0,o.i("b_.E")),B.vt,new A.asx(n),n.e,r),m),B.k,m,m,new A.c7(B.al,m,m,b,m,m,m,B.aa),m,m,B.op,400)],t.p),B.K,B.A,B.v)},
+d=A.bs(l,new A.vp(A.aK9(B.n1,B.ok,A.aO(k,l,l,l,l,A.S(a).p3.ax.rJ(B.jZ),l,l),!0,A.aa(new A.a7(c,new A.asu(a),s),!0,s.i("b_.E")),B.vt,new A.asv(m),m.d,r),l),B.k,l,l,new A.c7(B.al,l,l,d,l,l,l,B.aa),l,l,B.op,400)
+s=A.T(a,l,j).w.a.a*0.009
+c=A.aO("Pick up station",l,l,l,l,A.S(a).p3.f.wh(B.al,B.aS),l,l)
+q=A.ci(15)
+p=A.aO(k,l,l,l,l,A.S(a).p3.ax.rJ(B.jZ),l,l)
+o=m.x
+n=A.ag(o).i("a7<1,lb<j>>")
+q=A.bs(l,new A.vp(A.aK9(B.n1,B.ok,p,!0,A.aa(new A.a7(o,new A.asw(a),n),!0,n.i("b_.E")),B.vt,new A.asx(m),m.e,r),l),B.k,l,l,new A.c7(B.al,l,l,q,l,l,l,B.aa),l,l,B.op,400)
+j=A.T(a,l,j).w.a.b*0.02
+return A.bN(A.b([new A.bo(new A.cU(0,i,0,i),h,l),g,new A.bo(new A.cU(0,f,0,f),e,l),d,new A.bo(new A.cU(0,s,0,s),c,l),q,new A.bo(new A.cU(0,j,0,j),A.aO("The device will be picked up from 7:00 PM to 12 AM. \n We'll call you to set a specific time once your order is complete.",l,l,l,l,A.S(a).p3.Q.wh(B.aZ,B.aS),B.bW,l),l)],t.p),B.K,B.A,B.v)},
 aqv(){var s=$.cp,r=(s==null?$.cp=$.fB():s).fU(0,"[DEFAULT]")
 A.cY(r,$.fA(),!0)
 A.fk(A.fk(A.Be(new A.e4(r)).gv2().lQ(0,null)).c.fV(0,"Pickup Stations")).lH().bf(0,new A.asz(this),t.P).kl(new A.asA())},
@@ -53018,7 +53020,7 @@ K(a){var s,r,q,p,o,n,m,l=this,k=null,j=A.aPF(a,l.as,"assets/images/LOGOS-02.png"
 d=A.am(A.j8(A.bN(A.b([new A.vM(l.gKY(),k)],c),B.K,B.A,B.v),k),d.a.b*0.5,1/0)
 s=A.am(k,A.T(a,k,h).w.a.a*0.06,k)
 r=A.T(a,k,h).w
-r=A.am(A.j8(A.bN(A.b([new A.ve(l.gL8(),l.gKW(),l.gKU(),l.gLb(),k)],c),B.K,B.A,B.v),k),r.a.b*0.8,1/0)
+r=A.am(A.j8(A.bN(A.b([new A.ve(l.gL8(),l.gKW(),l.gKU(),l.gLb(),k)],c),B.K,B.A,B.v),k),r.a.b*0.65,1/0)
 q=A.T(a,k,h).w
 p=A.S(a).p3.as
 p.toString
